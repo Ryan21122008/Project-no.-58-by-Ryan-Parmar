@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding-top: 800px;
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
 }
 
 #hobbyimg {
@@ -30,16 +31,20 @@ body {
     vertical-align: middle;
 }
 
+#welcomeinnerheading {
+    font-size: 40px;
+}
+
 h1 {
     font-size: 40px;
 }
 
-#info {
+#favhobby {
     padding: 50px;
     text-align: center;
 }
 
-.line {
+.lines {
     height: 6px;
     background-color: black;
     width: 70px;
@@ -73,4 +78,18 @@ h1 {
 
 .link:hover {
     background-color: #ed0e0e;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.projects:hover {
+    color: darkblue;
+}
+
+p {
+    max-width: 550px;
+    margin: 25px auto;
+    font-size: 20px;
 }
