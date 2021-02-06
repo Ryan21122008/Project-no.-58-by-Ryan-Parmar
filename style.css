@@ -7,6 +7,7 @@ body {
 
 #hobbyimg {
     margin-bottom: 50px;
+    margin-top: 50px;
     border-radius: 50%;
 }
 
@@ -92,4 +93,12 @@ p {
     max-width: 550px;
     margin: 25px auto;
     font-size: 20px;
+}
+
+#whitehat {
+    transition: transform 0.2s;
+}
+
+#whitehat:hover {
+    transform: scale(0.9);
 }
