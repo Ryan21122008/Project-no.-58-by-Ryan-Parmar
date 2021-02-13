@@ -62,23 +62,24 @@ h1 {
     list-style: none;
     position: fixed;
     font-family: 'Fraunces', serif;
-    top: 1px;
-    right: 30px;
+    top: 0px;
     z-index: 10;
     cursor: pointer;
+    width:100%;
 }
 
 .link {
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10x;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20x;
     font-size: 20px;
 }
 
 .link:hover {
     background-color: #ed0e0e;
+    font-size: 25px;
 }
 
 html {
@@ -101,4 +102,24 @@ p {
 
 #whitehat:hover {
     transform: scale(0.9);
+}
+.link{
+    text-decoration:none;
+    text-shadow:2px 2px gray;
+}
+.mywork a{
+    text-shadow:none !important;
+    text-decoration:underline !important;
+}
+#contacts h3{
+    display:inline;
+}
+#contacts{
+    background-color:lawngreen;
+}
+#contacts iframe{
+    width:100%;
+}
+#myemail{
+    padding-top:50px;
 }
